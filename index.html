@@ -26,7 +26,9 @@
   <li style="text-indent:4.5em;"><a href="ShopWizSales.PNG">2018 ShopWizSales</a></li>
   <li style="text-indent:4.5em;"><a href="Bigss.PNG">2017 BigMensBelts</li></a>
   <li style="text-indent:4.5em;">2015-1018 Ebay Lister</li>
+  <canvas>
   <h3 style="text-indent:2.5em;"><b>EDUCATION</b></h3>
+  </canvas>
   <ul> <tbody> <table>
       <tr>
         <td>1993</td>
@@ -103,16 +105,11 @@
       </tr>
     </table>
     <a class="bp" href="#top">To top of the page</a>
-<canvas></canvas>
 <script>
   let cx = document.querySelector("canvas").getContext("2d");
-  let img = document.createElement("img");
-  img.src = "img/hat.png";
-  img.addEventListener("load", () => {
-    for (let x = 5; x < 400; x += 30) {
-      cx.drawImage(img, x, 10);
-    }
-  });
+  cx.font = "28px Georgia";
+  cx.fillStyle = "Arial";
+  cx.fillText("I can draw text, too!", 20, 150);
 </script>
 </body>
 

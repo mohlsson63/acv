@@ -1,4 +1,4 @@
-var v=window.alert("This site employs javascript");
+window.alert("This site employs javascript");
 
 let cx = document.querySelector("b").getContext("2d");
   cx.font = "28px Georgia";

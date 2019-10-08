@@ -1,5 +1,5 @@
 window.alert("This site employs javascript");
-window.alert(Date());
+window.alert("Hello You").innerHTML=Date();
 let cx = document.querySelector("b").getContext("2d");
   cx.font = "28px Georgia";
   cx.fillStyle = "Arial";
